@@ -34,3 +34,27 @@ def snail_simulation(M = 5,N=3):
         matrix[y][x] = 1
     
     return ans
+
+
+
+
+
+
+
+#%%
+import numpy as np
+# %%
+a = [[[0]*5]*5 for i in range(5)]
+a = [[[0]*5]*5]*5 
+# %%
+a[0][0][0] = 1
+# %%
+sum([sum(k) for i in a for k in i])
+
+# %%
+a
+# %%
+id(a[0][0][1])
+# %%
+id(a[0][1][0])
+# %%
