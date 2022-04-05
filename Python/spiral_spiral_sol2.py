@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*- 
 # 출력형태: 나선 배열 출력
-import pprint
-
 
 # 1 2 1
 # 2 3 2
@@ -14,9 +12,8 @@ import pprint
 # 1 4 3 2 1
 
 # solution 3 -> To turn when occur out_of_bound strategy - not good
-
 # solution 2 -> preprocessing strategy
-from calendar import c
+
 import copy
 
 # right, down, left, up
