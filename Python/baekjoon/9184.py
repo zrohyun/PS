@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 mat = [[[0]*21 for _ in range(21)] for _ in range(21)]
 def solution(a,b,c):
     while True:
@@ -81,7 +81,7 @@ for n,(a,b,c) in enumerate(list(p(k,3))):
         print()
 
 # solution()
-=======
+
 def solution():
     
     def w(a,b,c):
@@ -112,4 +112,3 @@ def solution():
 
 solution()
 
->>>>>>> Stashed changes
